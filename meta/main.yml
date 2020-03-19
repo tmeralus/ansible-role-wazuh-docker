@@ -1,0 +1,21 @@
+---
+galaxy_info:
+  role_name: wazuh-setup-dockeer
+  author: tmeralus
+  description: Install/Setup Wazuh 3.1 with docker
+  issue_tracker_url: https://github.com/tmeralus/ansible-role-wazuh-docker/issues
+  company: ""
+  license: "license (GPLv3, )"
+  min_ansible_version: 2.5.4
+  platforms:
+    - name: EL
+      versions:
+        - all
+  galaxy_tags:
+    - wazuh-hids
+    - Elasticsearch
+    - SIEM
+    - security
+    - docker
+    - kibana
+    - file-integrity
