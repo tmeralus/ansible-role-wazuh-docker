@@ -1,4 +1,4 @@
-- hosts: all
+- hosts: wazuh
   become: yes
   tasks:
     - name: Include OS-specific variables.

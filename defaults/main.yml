@@ -1,5 +1,5 @@
 ---
-wazuh_manager_ip: 172.16.120.45
+wazuh_manager_ip: 127.0.0.1
 atomic_art_key: "https://www.atomicorp.com/RPM-GPG-KEY.art.txt"
 atomic_gpg_key: "https://www.atomicorp.com/RPM-GPG-KEY.atomicorp.txt"
 wazuh_kibana_curl: "https://packages.wazuh.com/wazuhapp/wazuhapp-3.9.3_7.2.0.zip"

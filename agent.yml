@@ -1,6 +1,4 @@
-- hosts: all
-#  become: true
-
+- hosts: wazuh  
   tasks:
     - name: Include OS-specific variables.
       include_vars: "defaults/main.yml"
@@ -25,4 +23,3 @@
         state: started
         enabled: yes
       become: true
-      
